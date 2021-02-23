@@ -1,0 +1,375 @@
+.de_container {
+    margin-top: 20px;
+}
+
+.crumb_wrap {
+    height: 20px;
+}
+
+.crumb_wrap a {
+    margin-right: 10px;
+}
+
+.preview_wrap {
+    width: 400px;
+    height: 590px;
+}
+
+.preview_img {
+    height: 398px;
+    border: 1px solid #ccc;
+}
+
+.iteminfo_warp {
+    width: 718px;
+}
+
+.preview_list {
+    height: 60px;
+    margin-top: 60px;
+    position: relative;
+}
+
+.list_item {
+    width: 320px;
+    height: 60px;
+    margin: 0 auto;
+}
+
+.list_item li {
+    width: 56px;
+    height: 56px;
+    border: 2px solid #ccc;
+    float: left;
+    margin: 0 2px;
+}
+
+.list_item li:hover {
+    border: 2px solid red;
+}
+
+.arrow_prev img {
+    position: absolute;
+    top: 20px;
+    left: 0px;
+}
+
+.arrow_next img {
+    position: absolute;
+    top: 20px;
+    right: 0px;
+}
+
+.sku_name {
+    font-size: 16px;
+    font-weight: 700;
+    height: 30px;
+}
+
+.new {
+    height: 32px;
+    font-size: 12px;
+    color: #e12228;
+}
+
+.summary dl {
+    overflow: hidden;
+}
+
+.summary dt,
+.summary dd {
+    float: left;
+}
+
+.summary dt {
+    width: 60px;
+    padding-left: 10px;
+    line-height: 36px;
+}
+
+.summary_price,
+.summary_promotion {
+    padding: 10px 0;
+    background-color: #fee9eb;
+    position: relative;
+}
+
+.price {
+    font-size: 24px;
+    color: #e12228;
+}
+
+.summary_price a {
+    color: #e12228;
+}
+
+.remark {
+    position: absolute;
+    right: 10px;
+    top: 20px;
+}
+
+.summary_promotion {
+    padding-top: 0;
+}
+
+.summary_promotion dd {
+    width: 450px;
+    line-height: 39px;
+}
+
+.summary_promotion em {
+    display: inline-block;
+    text-align: center;
+    line-height: 22px;
+    color: #fff;
+    width: 40px;
+    height: 22px;
+    background-color: #c81623;
+}
+
+.summary_support {
+    line-height: 36px;
+}
+
+.summary_ps {
+    padding-top: 10px;
+}
+
+.summary_ps dd {
+    display: inline-block;
+    padding: 10px 0;
+    position: relative;
+    width: 450px;
+    line-height: 18px;
+}
+
+.choose_color a {
+    display: inline-block;
+    width: 80px;
+    height: 41px;
+    background-color: #f7f7f7;
+    border: 1px solid #ededed;
+    text-align: center;
+    line-height: 41px;
+}
+
+.choose_color a:hover {
+    border: 1px solid red;
+}
+
+.choose_version {
+    margin: 10px 0;
+}
+
+.choose_version a {
+    display: inline-block;
+    height: 32px;
+    padding: 0 12px;
+    background-color: #f7f7f7;
+    border: 1px solid #ededed;
+    text-align: center;
+    line-height: 32px;
+}
+
+.choose_version a:hover {
+    border: 1px solid red;
+}
+
+.choose_buns {
+    margin-top: 20px;
+}
+
+.choose_amount {
+    width: 50px;
+    float: left;
+    height: 46px;
+    position: relative;
+}
+
+.addcar {
+    width: 142px;
+    height: 46px;
+    background-color: #c81623;
+    text-align: center;
+    line-height: 46px;
+    font-size: 18px;
+    color: #fff;
+    float: left;
+    margin-left: 10px;
+    font-weight: 700;
+}
+
+.choose_amount input {
+    width: 33px;
+    height: 44px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+.add,
+.reduce {
+    position: absolute;
+    height: 22px;
+    width: 15px;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    text-align: center;
+    line-height: 22px;
+}
+
+.add {
+    top: 0;
+    right: 0;
+}
+
+.reduce {
+    bottom: 0;
+    right: 0;
+    cursor: not-allowed;
+}
+
+.product_detail {
+    overflow: hidden;
+}
+
+.aside {
+    width: 208px;
+    border: 1px solid #ccc;
+}
+
+.detail {
+    width: 978px;
+    border: 1px solid #ccc;
+}
+
+.tab_list {
+    height: 34px;
+}
+
+.tab_list .current {
+    background-color: #fff;
+    border-bottom: 0;
+}
+
+.tab_list li {
+    float: left;
+    background-color: #f1f1f1;
+    border-bottom: 1px solid #ccc;
+    height: 33px;
+    text-align: center;
+    line-height: 33px;
+}
+
+.first_tab {
+    width: 104px;
+}
+
+.second_tab {
+    width: 103px;
+    border-left: 1px solid #ccc;
+}
+
+.tab_con_i li {
+    width: 85px;
+    height: 20px;
+    line-height: 20px;
+    border-bottom: 1px solid #ccc;
+    margin-left: 10px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.tab_con_i a {
+    float: left;
+    margin-left: 25px;
+}
+
+.tab_con {
+    padding: 0 5px;
+}
+
+.tab_con_i P {
+    text-align: center;
+    height: 20px;
+    line-height: 20px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 8px;
+    font-size: 14px;
+}
+
+.tab_con_q li {
+    height: 320px;
+}
+
+.tab_con_q h5 {
+    margin-top: 10px;
+    width: 200px;
+    white-space: nowrap;
+    /* 必须一行内显示 */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /* 多的用省略号来表示 */
+}
+
+.aside_price {
+    font-weight: 700;
+    margin: 10px 0;
+}
+
+.as_car {
+    display: block;
+    width: 88px;
+    height: 36px;
+    border: 1px solid #ccc;
+    background-color: red;
+    color: #fff;
+    margin: 10px auto;
+    text-align: center;
+    line-height: 36px;
+}
+
+.detail {
+    width: 978px;
+}
+
+.detail_tab_list {
+    height: 39px;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+.detail_tab_list li {
+    float: left;
+    height: 39px;
+    line-height: 39px;
+    padding: 0 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.detail_tab_list li:hover {
+    background-color: red;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.item_info {
+    padding: 20px 0 0 20px;
+}
+
+.item_info li {
+    line-height: 22px;
+}
+
+.more {
+    float: right;
+    font-weight: 700;
+}
